@@ -36,7 +36,7 @@ class Square{
         return 4*side;
     }
 }
-class Rectangle{
+class Rectangle1 {
     int side1;
     int side2;
     public int area(){
@@ -69,7 +69,7 @@ class Circle {
     }
 }
 
-public class CWH_ChO8_PS {
+public class CWH_Ch08_PS1 {
     public static void main(String[] args) {
         Employee yash= new Employee();
         yash.setName("Yash Gaykar");
@@ -93,7 +93,7 @@ public class CWH_ChO8_PS {
         System.out.println();
 
 
-        Rectangle rect=new Rectangle();
+        Rectangle1 rect=new Rectangle1();
         rect.side1=3;
         rect.side2=5;
         System.out.println("Area of Rectangle: "+rect.area());

@@ -15,9 +15,9 @@ class Myemployee{
     public void setId(int i){
         id=i;
     }
-     public int getId(){
+    public int getId(){
         return id;
-     }
+    }
 }
 
 
@@ -32,7 +32,7 @@ class MyCircle{
     }
 }
 
-public class CWH_23_AcessModifiersConstuctors {
+public class CWH_23_AcessModifiersConstructor {
     public static void main(String[] args) {
         Myemployee yash=new Myemployee();
 //        yash.id=45;
@@ -47,5 +47,4 @@ public class CWH_23_AcessModifiersConstuctors {
         area.setA(5);
         System.out.println(area.getA());
     }
-
 }

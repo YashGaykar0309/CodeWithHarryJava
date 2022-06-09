@@ -1,5 +1,6 @@
 package com.company;
 
+
 class Employee1 {
     int id;
     int salary;
@@ -15,7 +16,7 @@ class Employee1 {
     }
 }
 
-public class CWH_22_custom_class {
+public class CWH_22_Custom_Class {
     public static void main(String[] args) {
         Employee1 yash=new Employee1();
         yash.name="yash gaykar";
@@ -39,3 +40,4 @@ public class CWH_22_custom_class {
 
     }
 }
+
